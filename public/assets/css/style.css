@@ -1,390 +1,183 @@
 a,
 a:hover {
-	color: inherit;
-}
+  color: inherit; }
 
 body {
-	background: #f7f8fc;
-}
-body .page-content {
-	padding: 36px 30px;
-}
-body .page-content .article-tickets {
-	border: 1px solid #dfe0eb;
-	border-radius: 8px;
-}
-body .page-content .article-tickets .article-header {
-	padding: 0 32px;
-	margin-top: 32px;
-	margin-bottom: 48px;
-}
-
-body .page-content {
-	padding: 36px 30px;
-}
-
-body
-	.page-content
-	body
-	.page-content
-	.article-tickets
-	body
-	.page-content
-	.article-tickets
-	.article-header
-	.header-title {
-	font-size: 19px;
-}
-
-body .page-content .article-tickets .article-header .table-icons {
-	font-weight: 600;
-	font-size: 14px;
-	color: #4b506d;
-	gap: 34px;
-}
-
-body .page-content .article-tickets .article-header .table-icons div {
-	gap: 10px;
-}
-
-body .page-content .article-tickets .article-header .table-icons div i {
-	color: #c5c7cd;
-}
-
-body .page-content .article-tickets table tbody tr:hover {
-	background: rgba(55, 81, 255, 0.04);
-}
-
-body .page-content .article-tickets table tr th {
-	color: #9fa2b4;
-	font-weight: 700;
-	font-size: 14px;
-	border-bottom: 1.5px solid #dfe0eb;
-	padding-bottom: 15px;
-}
-
-body .page-content .article-tickets table tr th:first-child {
-	width: 45%;
-}
-
-body .page-content .article-tickets table tr td {
-	border-bottom: 1px solid #dfe0eb;
-	height: 92px;
-}
-
-body .page-content .article-tickets table tr td.user-status .btn {
-	border-radius: 100px;
-	font-size: 11px;
-}
-
-body .page-content .article-tickets table tr td.user-more {
-	color: #c5c7cd;
-}
-
-body .page-content .article-tickets table tr td .title {
-	font-weight: 600;
-	font-size: 14px;
-	padding-bottom: 5px;
-}
-
-body .page-content .article-tickets table tr td .subtitle {
-	font-weight: 400;
-	font-size: 12px;
-	color: #c5c7cd;
-}
-
-body .page-content .article-tickets table tr th:first-child,
-body .page-content .article-tickets table tr td:first-child {
-	padding-left: 32px;
-}
-
-body .page-content .article-tickets table tr th:last-child,
-body .page-content .article-tickets table tr td:last-child {
-	padding-right: 13px;
-}
-
-body .page-content .article-tickets .article-footer {
-	color: #9fa2b4;
-	margin-right: 41px;
-	font-size: 14px;
-	height: 72px;
-}
-
-body .page-content .article-tickets .article-footer .per-page select {
-	width: 60px;
-	color: #4b506d;
-}
-
-body .page-content .article-tickets .article-footer .count-item {
-	margin-right: 3px;
-	margin-left: 55px;
-}
-
-body .page-content .article-tickets .article-footer .array-icon i {
-	margin-left: 30px;
-}
-
-body .page-content .article-row-card .card:hover {
-	color: #3751ff !important;
-	border: 1px solid #3751ff;
-}
-
-body .page-content .article-row-card .card:hover .card-title {
-	color: #3751ff;
-}
-
-body .page-content .article-row-card .card .card-title {
-	font-size: 19px;
-	color: #9fa2b4;
-}
-
-body .page-content .article-row-card .card .card-text {
-	font-size: 40px;
-}
-
-body .page-content .article-chart {
-	margin: 30px 0;
-	border: 1px solid #dfe0eb;
-	border-radius: 8px;
-}
-
-body .page-content .article-chart .smote-chart {
-	padding: 0 32px;
-}
-
-body .page-content .article-chart .smote-chart .head-chart {
-	padding: 32px 0 54px 0;
-	font-size: 12px;
-}
-
-body .page-content .article-chart .smote-chart .head-chart .title-chart {
-	font-size: 19px;
-}
-
-body .page-content .article-chart .smote-chart .head-chart .subtitle-chart {
-	color: #9fa2b4;
-}
-
-body .page-content .article-chart .smote-chart .head-chart .detales-chart {
-	font-weight: 600;
-	color: #9fa2b4;
-	gap: 35px;
-}
-
-body
-	.page-content
-	.article-chart
-	.smote-chart
-	.head-chart
-	.detales-chart
-	.detale {
-	gap: 10px;
-}
-
-body
-	.page-content
-	.article-chart
-	.smote-chart
-	.head-chart
-	.detales-chart
-	.detale
-	.lines {
-	background: #dfe0eb;
-	width: 16px;
-	height: 2px;
-}
-
-body
-	.page-content
-	.article-chart
-	.smote-chart
-	.head-chart
-	.detales-chart
-	.detale
-	.lines.today {
-	background: #3751ff;
-}
-
-body .page-content .article-chart .smote-chart .container-chartt {
-	padding-right: 30px;
-	font-weight: 400;
-	font-size: 10px;
-}
-
-body
-	.page-content
-	.article-chart
-	.smote-chart
-	.container-chartt
-	.chart-num-right {
-	position: relative;
-}
-
-body
-	.page-content
-	.article-chart
-	.smote-chart
-	.container-chartt
-	.chart-num-right
-	svg {
-	position: absolute;
-	bottom: 0px;
-}
-
-body
-	.page-content
-	.article-chart
-	.smote-chart
-	.container-chartt
-	.chart-num-right
-	.section-chart {
-	height: 60px;
-}
-
-body
-	.page-content
-	.article-chart
-	.smote-chart
-	.container-chartt
-	.chart-num-right
-	.section-chart
-	.line {
-	height: 1px;
-	width: 100%;
-	background-color: #ebedf0;
-	margin-top: 6px;
-}
-
-body
-	.page-content
-	.article-chart
-	.smote-chart
-	.container-chartt
-	.chart-num-bottom {
-	gap: 23px;
-	padding-top: 14px;
-}
-
-body .page-content .article-chart .article-chart-cards .card {
-	padding: 24px 0;
-	border-radius: 0;
-}
-
-body .page-content .article-chart .article-chart-cards .card .card-title {
-	font-weight: 600;
-	font-size: 16px;
-	color: #9fa2b4;
-}
-
-body .page-content .article-chart .article-chart-cards .card .card-text {
-	font-size: 24px;
-}
-
-body .page-content .article-card-details .card-body {
-	padding: 32px;
-}
-
-body .page-content .article-card-details .card-body .card-title {
-	font-size: 19px;
-}
-
-body .page-content .article-card-details .card-body .card-subtitle {
-	font-size: 12px;
-	color: #9fa2b4;
-}
-
-body .page-content .article-card-details .card-body .card-subtitle span {
-	font-weight: 600;
-	color: black;
-}
-
-body .page-content .article-card-details .card-body .card-text {
-	font-weight: 600;
-	font-size: 14px;
-	color: #3751ff;
-}
-
-body .page-content .article-card-details .list-group-item {
-	height: 58px;
-}
-
-body .page-content .article-card-details .item-title {
-	font-weight: 600;
-	font-size: 14px;
-	color: black;
-}
-
-body .page-content .article-card-details .item-nimber {
-	font-weight: 600;
-	font-size: 14px;
-	color: #9fa2b4;
-}
-
-body .page-content .article-card-details .form-check-input {
-	border-radius: 50%;
-}
-
-body .page-content .article-card-details .btn {
-	border-radius: 8px;
-	font-size: 11px;
-}
-
-body .top-nav-bar {
-	padding-bottom: 54px;
-}
-
-body .top-nav-bar .header-text {
-	font-size: 24px;
-}
-
-body .top-nav-bar .nav-details .icons-v {
-	color: #c5c7cd;
-	gap: 28px;
-}
-
-body .top-nav-bar .nav-details .icons-v .fa-bell {
-	position: relative;
-}
-
-body .top-nav-bar .nav-details .icons-v .fa-bell div {
-	position: absolute;
-	width: 7px;
-	height: 7px;
-	border-radius: 50%;
-	background: #3751ff;
-	border: 1px solid #f7f8fc;
-	top: 0;
-	right: 0;
-}
-
-body .top-nav-bar .nav-details .user-container {
-	border-left: 1px solid #dfe0eb;
-	font-weight: 600;
-	font-size: 14px;
-	padding-left: 32px;
-	margin-left: 33px;
-}
-
-body .top-nav-bar .nav-details .user-container img {
-	padding: 2px;
-	border: 1px solid #c4c4c4;
-}
-
-body .sidebar-container {
-	background-color: #363740;
-	color: #a4a6b3 !important;
-}
-
-body .sidebar-container li:hover {
-	color: #dde2ff !important;
-	background-color: rgba(159, 162, 180, 0.08);
-	border-left: #dde2ff 3px solid;
-}
-
-body .sidebar-container li:hover .nav-link {
-	color: #dde2ff !important;
-}
-
-body .sidebar-container li .nav-link {
-	color: #a4a6b3 !important;
-}
+  background: #f7f8fc; }
+  body .top-nav-bar {
+    padding-bottom: 54px; }
+    body .top-nav-bar .header-text {
+      font-size: 24px; }
+    body .top-nav-bar .nav-details .icons-v {
+      color: #c5c7cd;
+      gap: 28px; }
+      body .top-nav-bar .nav-details .icons-v .fa-bell {
+        position: relative; }
+        body .top-nav-bar .nav-details .icons-v .fa-bell div {
+          position: absolute;
+          width: 7px;
+          height: 7px;
+          border-radius: 50%;
+          background: #3751ff;
+          border: 1px solid #f7f8fc;
+          top: 0;
+          right: 0; }
+    body .top-nav-bar .nav-details .user-container {
+      border-left: 1px solid #dfe0eb;
+      font-weight: 600;
+      font-size: 14px;
+      padding-left: 32px;
+      margin-left: 33px; }
+      body .top-nav-bar .nav-details .user-container img {
+        padding: 2px;
+        border: 1px solid #c4c4c4; }
+  body .sidebar-container {
+    background-color: #363740;
+    color: #a4a6b3 !important; }
+    body .sidebar-container li .nav-link {
+      color: #a4a6b3 !important; }
+    body .sidebar-container li:hover {
+      color: #dde2ff !important;
+      background-color: rgba(159, 162, 180, 0.08);
+      border-left: #dde2ff 3px solid; }
+      body .sidebar-container li:hover .nav-link {
+        color: #dde2ff !important; }
+  body .page-content {
+    padding: 36px 30px; }
+    body .page-content .article-tickets {
+      border: 1px solid #dfe0eb;
+      border-radius: 8px; }
+      body .page-content .article-tickets .article-header {
+        padding: 0 32px;
+        margin-top: 32px;
+        margin-bottom: 48px; }
+        body .page-content .article-tickets .article-header .header-title {
+          font-size: 19px; }
+        body .page-content .article-tickets .article-header .table-icons {
+          font-weight: 600;
+          font-size: 14px;
+          color: #4b506d;
+          gap: 34px; }
+          body .page-content .article-tickets .article-header .table-icons div {
+            gap: 10px; }
+            body .page-content .article-tickets .article-header .table-icons div i {
+              color: #c5c7cd; }
+      body .page-content .article-tickets table tbody tr:hover {
+        background: rgba(55, 81, 255, 0.04); }
+      body .page-content .article-tickets table tr th {
+        color: #9fa2b4;
+        font-weight: 700;
+        font-size: 14px;
+        border-bottom: 1.5px solid #dfe0eb;
+        padding-bottom: 15px; }
+        body .page-content .article-tickets table tr th:first-child {
+          width: 45%;
+          padding-left: 32px; }
+        body .page-content .article-tickets table tr th:last-child {
+          padding-right: 13px; }
+      body .page-content .article-tickets table tr td {
+        border-bottom: 1px solid #dfe0eb;
+        height: 92px; }
+        body .page-content .article-tickets table tr td.user-status .btn {
+          border-radius: 100px;
+          font-size: 11px; }
+        body .page-content .article-tickets table tr td.user-more {
+          color: #c5c7cd; }
+        body .page-content .article-tickets table tr td .title {
+          font-weight: 600;
+          font-size: 14px;
+          padding-bottom: 5px; }
+        body .page-content .article-tickets table tr td .subtitle {
+          font-weight: 400;
+          font-size: 12px;
+          color: #c5c7cd; }
+        body .page-content .article-tickets table tr td:first-child {
+          padding-left: 32px; }
+        body .page-content .article-tickets table tr td:last-child {
+          padding-right: 13px; }
+      body .page-content .article-tickets .article-footer {
+        color: #9fa2b4;
+        margin-right: 41px;
+        font-size: 14px;
+        height: 72px; }
+        body .page-content .article-tickets .article-footer .per-page select {
+          width: 60px;
+          color: #4b506d; }
+        body .page-content .article-tickets .article-footer .count-item {
+          margin-right: 3px;
+          margin-left: 55px; }
+        body .page-content .article-tickets .article-footer .array-icon i {
+          margin-left: 30px; }
+    body .page-content .article-row-card .card .card-title {
+      font-size: 19px;
+      color: #9fa2b4; }
+    body .page-content .article-row-card .card .card-text {
+      font-size: 40px; }
+    body .page-content .article-row-card .card:hover {
+      color: #3751ff !important;
+      border: 1px solid #3751ff; }
+      body .page-content .article-row-card .card:hover .card-title {
+        color: #3751ff; }
+    body .page-content .article-chart {
+      margin: 30px 0;
+      border: 1px solid #dfe0eb;
+      border-radius: 8px; }
+      body .page-content .article-chart .smote-chart {
+        padding: 0 32px; }
+        body .page-content .article-chart .smote-chart .head-chart {
+          padding: 32px 0 54px 0;
+          font-size: 12px; }
+          body .page-content .article-chart .smote-chart .head-chart .title-chart {
+            font-size: 19px; }
+          body .page-content .article-chart .smote-chart .head-chart .subtitle-chart {
+            color: #9fa2b4; }
+          body .page-content .article-chart .smote-chart .head-chart .detales-chart {
+            font-weight: 600;
+            color: #9fa2b4;
+            gap: 35px; }
+            body .page-content .article-chart .smote-chart .head-chart .detales-chart .detale {
+              gap: 10px; }
+              body .page-content .article-chart .smote-chart .head-chart .detales-chart .detale .lines {
+                background: #dfe0eb;
+                width: 16px;
+                height: 2px; }
+                body .page-content .article-chart .smote-chart .head-chart .detales-chart .detale .lines.today {
+                  background: #3751ff; }
+      body .page-content .article-chart-cards .card {
+        padding: 24px 0;
+        border-radius: 0; }
+        body .page-content .article-chart-cards .card .card-title {
+          font-weight: 600;
+          font-size: 16px;
+          color: #9fa2b4; }
+        body .page-content .article-chart-cards .card .card-text {
+          font-size: 24px; }
+    body .page-content .article-card-details .card-body {
+      padding: 32px; }
+      body .page-content .article-card-details .card-body .card-title {
+        font-size: 19px; }
+      body .page-content .article-card-details .card-body .card-subtitle {
+        font-size: 12px;
+        color: #9fa2b4; }
+        body .page-content .article-card-details .card-body .card-subtitle span {
+          font-weight: 600;
+          color: black; }
+      body .page-content .article-card-details .card-body .card-text {
+        font-weight: 600;
+        font-size: 14px;
+        color: #3751ff; }
+    body .page-content .article-card-details .list-group-item {
+      height: 58px; }
+    body .page-content .article-card-details .item-title {
+      font-weight: 600;
+      font-size: 14px;
+      color: black; }
+    body .page-content .article-card-details .item-nimber {
+      font-weight: 600;
+      font-size: 14px;
+      color: #9fa2b4; }
+    body .page-content .article-card-details .form-check-input {
+      border-radius: 50%; }
+    body .page-content .article-card-details .btn {
+      border-radius: 8px;
+      font-size: 11px; }
