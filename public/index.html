@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <!--  sidebar  -->
+      <div class="col-4 col-md-3 col-xl-2 px-0 sidebar-container">
+        <div class="d-flex flex-column align-items-center align-items-sm-start pt-4">
+          <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-decoration-none px-4">
+            <svg class="" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="16" cy="16" r="16" fill="#3751FF" />
+              <path
+                d="M11 10C11 9.44772 11.4477 9 12 9H15.9905C18.2127 9 19.9333 9.60955 21.1524 10.8287C22.3841 12.0478 23 13.765 23 15.9803C23 18.2088 22.3841 19.9391 21.1524 21.1713C19.9333 22.3904 18.2127 23 15.9905 23H12C11.4477 23 11 22.5523 11 22V10Z"
+                fill="url(#paint0_linear_584_285)" />
+              <defs>
+                <linearGradient id="paint0_linear_584_285" x1="11" y1="9" x2="23" y2="23"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" stop-opacity="0.7" />
+                  <stop offset="1" stop-color="white" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <span class="fs-5 d-none d-sm-inline px-3">Dashboard Kit</span>
+          </a>
+          <ul class="nav nav-pills flex-column w-100 mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li class="px-4 w-100">
+              <a href="/" class="nav-link align-middle active">
+                <i class="fa-solid fa-pie-chart"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Overview</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="/tickets.html" data-bs-toggle="collapse" class="nav-link  align-middle">
+                <i class="fa-solid fa-ticket"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Tickets</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#ideas" class="nav-link  align-middle">
+                <i class="fa-solid fa-lightbulb"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Ideas</span></a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#contacts" data-bs-toggle="collapse" class="nav-link  align-middle">
+                <i class="fa-solid fa-users"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Contacts</span></a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#agents" data-bs-toggle="collapse" class="nav-link  align-middle">
+                <img src="./assets/images/agents.svg" alt="" />
+
+                <span class="ms-1 d-none d-sm-inline px-3">Agents</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#articles" class="nav-link  align-middle">
+                <img src="./assets/images/articles.svg" alt="" />
+
+                <span class="ms-1 d-none d-sm-inline px-3">Articles</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#settings" class="nav-link  align-middle">
+                <i class="fa-solid fa-gear"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Settings</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#subscription" class="nav-link  align-middle">
+                <img src="./assets/images/subscription.svg" alt="" />
+                <span class="ms-1 d-none d-sm-inline px-3">Subscription</span>
+              </a>
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </div>
+      <!-- page-content -->
+      <div class="col-8 col-md-9 col-xl-10 page-content">
+        <!-- Top Nav -->
+        <div class="d-flex justify-content-between top-nav-bar">
+          <div class="fw-bold header-text">Overview</div>
+          <div class="d-flex align-items-center nav-details">
+            <div class="d-flex icons-v">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <i class="fa fa-bell" aria-hidden="true">
+                <div></div>
+              </i>
+            </div>
+            <div class="user-container">
+              <a href="#" class="d-flex align-items-center text-decoration-none">
+                <span class="d-none d-sm-inline mx-1">Jones Ferdinand</span>
+                <img src="./assets/images/profile.png" alt="user" width="30" height="30" class="rounded-circle" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <!--   4 card Row   -->
+            <div class="row text-center article-row-card">
+              <div class="col-6 col-md-3">
+                <div class="card rounded-10">
+                  <div class="card-body">
+                    <h5 class="card-title fw-bold">
+                      Unresolved
+                    </h5>
+                    <p class="card-text fw-bold">60</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Overdue</h5>
+                    <p class="card-text fw-bold">16</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Open</h5>
+                    <p class="card-text fw-bold">43</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-3">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">On hold</h5>
+                    <p class="card-text fw-bold">64</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- chart section -->
+            <div class="row bg-white article-chart">
+              <div class="col-12 col-md-9 smote-chart">
+                <div class="row justify-content-between head-chart">
+                  <div class="col-12 col-md-12 col-xl-8 text-chart">
+                    <div class="fw-bold title-chart">
+                      Today’s trends
+                    </div>
+                    <div class="subtitle-chart fw-normal">
+                      as of 25 May 2019, 09:41 PM
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-12 col-xl-4 detales-chart">
+                    <div class="row">
+                      <div class="col-6 d-flex align-items-center detale">
+                        <div class="lines today"></div>
+                        <div>Today</div>
+                      </div>
+                      <div class="col-6 d-flex align-items-center detale">
+                        <div class="lines"></div>
+                        <div>Yesterday</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <img src="./assets/images/full-graph.png" alt="" />
+                </div>
+              </div>
+              <div class="col-12 col-md-3 text-center article-chart-cards px-0">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Resolved</h5>
+                    <p class="card-text fw-bold">449</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Received</h5>
+                    <p class="card-text fw-bolder">426</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      Average first response time
+                    </h5>
+                    <p class="card-text fw-bold">33m</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">
+                      Average response time
+                    </h5>
+                    <p class="card-text fw-bold">3h 8m</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-body text-center">
+                    <h5 class="card-title">
+                      Resolution within SLA
+                    </h5>
+                    <p class="card-text fw-bold">94%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-md-6 article-card-detels">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title fw-bold">
+                          Unresolved tickets
+                        </h5>
+                        <h6 class="card-subtitle mb-2 fw-normal">
+                          Group: <span>Support</span>
+                        </h6>
+                      </div>
+                      <div class="col-auto card-text">View details</div>
+                    </div>
+                    <div class="row">
+                      <ul class="col list-group list-group-flush border-0">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <span class="item-title">Waiting on Feature Request</span><span class="item-nimber">4238</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <span class="item-title">Awaiting Customer Response</span><span class="item-nimber">1005</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <span class="item-title">Awaiting Developer Fix</span><span class="item-nimber">914</span>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <span class="item-title">Pending</span><span class="item-nimber">281</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 mt-2 col-md-6 mt-md-0 article-card-detels">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col">
+                        <h5 class="card-title fw-bold">
+                          Tasks
+                        </h5>
+                        <h6 class="card-subtitle mb-2 fw-normal">
+                          Today
+                        </h6>
+                      </div>
+                      <div class="col-auto card-text">View all</div>
+                    </div>
+                    <div class="row">
+                      <ul class="list-group list-group-flush border-0">
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <input type="text" class="form-control border-0" placeholder="Create new task" />
+                          <button type="button" class="btn btn-light text-black-50 bi bi-plus">
+                            <i class="fa fa-plus"></i>
+                          </button>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="finishCheckChecked" />
+                            <label class="form-check-label" for="finishCheckChecked">
+                              Finish ticket update
+                            </label>
+                          </div>
+                          <button type="button" class="btn btn-warning text-white fw-bold">
+                            URGENT
+                          </button>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="finishCheckChecked" />
+                            <label class="form-check-label" for="finishCheckChecked">
+                              Create new ticket example
+                            </label>
+                          </div>
+                          <button type="button" class="btn btn-success text-white fw-bold">
+                            NEW
+                          </button>
+                        </li>
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" value="" id="finishCheckChecked" checked />
+                            <label class="form-check-label" for="finishCheckChecked">
+                              Update ticket report
+                            </label>
+                          </div>
+                          <button type="button" class="btn btn-light text-black-50 fw-bold">
+                            DEFAULT
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</body>
+
+</html>

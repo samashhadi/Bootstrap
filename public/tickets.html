@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row flex-nowrap">
+      <!--  sidebar  -->
+      <div class="col-4 col-md-3 col-xl-2 px-0 sidebar-container">
+        <div class="d-flex flex-column align-items-center align-items-sm-start pt-4">
+          <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-decoration-none px-4">
+            <svg class="" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="16" cy="16" r="16" fill="#3751FF" />
+              <path
+                d="M11 10C11 9.44772 11.4477 9 12 9H15.9905C18.2127 9 19.9333 9.60955 21.1524 10.8287C22.3841 12.0478 23 13.765 23 15.9803C23 18.2088 22.3841 19.9391 21.1524 21.1713C19.9333 22.3904 18.2127 23 15.9905 23H12C11.4477 23 11 22.5523 11 22V10Z"
+                fill="url(#paint0_linear_584_285)" />
+              <defs>
+                <linearGradient id="paint0_linear_584_285" x1="11" y1="9" x2="23" y2="23"
+                  gradientUnits="userSpaceOnUse">
+                  <stop stop-color="white" stop-opacity="0.7" />
+                  <stop offset="1" stop-color="white" />
+                </linearGradient>
+              </defs>
+            </svg>
+            <span class="fs-5 d-none d-sm-inline px-3">Dashboard Kit</span>
+          </a>
+          <ul class="nav nav-pills flex-column w-100 mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <li class="px-4 w-100">
+              <a href="/" class="nav-link align-middle ">
+                <i class="fa-solid fa-pie-chart"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Overview</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="/tickets.html" data-bs-toggle="collapse" class="nav-link active">
+                <i class="fa-solid fa-ticket"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Tickets</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#ideas" class="nav-link ">
+                <i class="fa-solid fa-lightbulb"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Ideas</span></a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#contacts" data-bs-toggle="collapse" class="nav-link ">
+                <i class="fa-solid fa-users"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Contacts</span></a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#agents" data-bs-toggle="collapse" class="nav-link ">
+                <img src="./assets/images/agents.svg" alt="" />
+
+                <span class="ms-1 d-none d-sm-inline px-3">Agents</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#articles" class="nav-link ">
+                <img src="./assets/images/articles.svg" alt="" />
+
+                <span class="ms-1 d-none d-sm-inline px-3">Articles</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#settings" class="nav-link ">
+                <i class="fa-solid fa-gear"></i>
+                <span class="ms-1 d-none d-sm-inline px-3">Settings</span>
+              </a>
+            </li>
+            <li class="px-4 w-100">
+              <a href="#subscription" class="nav-link ">
+                <img src="./assets/images/subscription.svg" alt="" />
+                <span class="ms-1 d-none d-sm-inline px-3">Subscription</span>
+              </a>
+            </li>
+          </ul>
+          <hr />
+        </div>
+      </div>
+      <!-- page-content -->
+      <div class="col-8 col-md-9 col-xl-10 page-content">
+        <!-- Top Nav -->
+        <div class="d-flex justify-content-between top-nav-bar">
+          <div class="fw-bold header-text">Tickets</div>
+          <div class="d-flex align-items-center nav-details">
+            <div class="d-flex icons-v">
+              <i class="fa fa-search" aria-hidden="true"></i>
+              <i class="fa fa-bell" aria-hidden="true">
+                <div></div>
+              </i>
+            </div>
+            <div class="user-container">
+              <a href="#" class="d-flex align-items-center text-decoration-none">
+                <span class="d-none d-sm-inline mx-1">Jones Ferdinand</span>
+                <img src="./assets/images/profile.png" alt="user" width="30" height="30" class="rounded-circle" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+           
+            <div id="tickets" class="row">
+              <!-- users -->
+              <div class="col-12 mt-2 article-tickets bg-white">
+                <div class="d-flex align-items-center justify-content-between article-header">
+                  <div class="fw-bold header-title">
+                    All tickets
+                  </div>
+                  <div class="d-flex table-icons">
+                    <div class="d-flex align-items-center">
+                      <i class="fa-solid fa-arrow-up-wide-short"></i><span>Sort</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                      <i class="fa-solid fa-filter"></i><span>Filter</span>
+                    </div>
+                  </div>
+                </div>
+                <table class="w-100">
+                  <thead>
+                    <tr>
+                      <th>Ticket details</th>
+                      <th>Customer name</th>
+                      <th>Date</th>
+                      <th>Priority</th>
+                      <th></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="user-detail d-flex align-items-center" style="gap: 15px">
+                        <img src="./assets/images/m 1.png" alt="user" width="30" height="30" class="rounded-circle" />
+                        <div>
+                          <div class="title">
+                            Contact Email not Linked
+                          </div>
+                          <div class="subtitle">
+                            Updated 1 day ago
+                          </div>
+                        </div>
+                      </td>
+                      <td class="user-name">
+                        <div class="title">Tom Cruise</div>
+                        <div class="subtitle">
+                          on 24.05.2019
+                        </div>
+                      </td>
+                      <td class="user-date">
+                        <div class="title">
+                          May 26, 2019
+                        </div>
+                        <div class="subtitle">6:30 PM</div>
+                      </td>
+                      <td class="user-status">
+                        <button type="button" class="btn btn-danger fw-bold">
+                          HIGH
+                        </button>
+                      </td>
+                      <td class="user-more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="user-detail d-flex align-items-center" style="gap: 15px">
+                        <img src="./assets/images/w 1.png" alt="user" width="30" height="30" class="rounded-circle" />
+                        <div>
+                          <div class="title">
+                            Adding Images to Featured
+                            Posts
+                          </div>
+                          <div class="subtitle">
+                            Updated 1 day ago
+                          </div>
+                        </div>
+                      </td>
+
+                      <td class="user-name">
+                        <div class="title">Matt Damon</div>
+                        <div class="subtitle">
+                          on 24.05.2019
+                        </div>
+                      </td>
+                      <td class="user-date">
+                        <div class="title">
+                          May 26, 2019
+                        </div>
+                        <div class="subtitle">8:00 AM</div>
+                      </td>
+                      <td class="user-status">
+                        <button type="button" class="btn btn-warning text-white fw-bold">
+                          LOW
+                        </button>
+                      </td>
+                      <td class="user-more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="user-detail d-flex align-items-center" style="gap: 15px">
+                        <img src="./assets/images/w 2.png" alt="user" width="30" height="30" class="rounded-circle" />
+                        <div>
+                          <div class="title">
+                            When will I be charged this
+                            month?
+                          </div>
+                          <div class="subtitle">
+                            Updated 1 day ago
+                          </div>
+                        </div>
+                      </td>
+                      <td class="user-name">
+                        <div class="title">
+                          Robert Downey
+                        </div>
+                        <div class="subtitle">
+                          on 24.05.2019
+                        </div>
+                      </td>
+                      <td class="user-date">
+                        <div class="title">
+                          May 26, 2019
+                        </div>
+                        <div class="subtitle">7:30 PM</div>
+                      </td>
+                      <td class="user-status">
+                        <button type="button" class="btn btn-danger fw-bold">
+                          HIGH
+                        </button>
+                      </td>
+                      <td class="user-more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="user-detail d-flex align-items-center" style="gap: 15px">
+                        <img src="./assets/images/m 2.png" alt="user" width="30" height="30" class="rounded-circle" />
+                        <div>
+                          <div class="title">
+                            Payment not going through
+                          </div>
+                          <div class="subtitle">
+                            Updated 2 day ago
+                          </div>
+                        </div>
+                      </td>
+
+                      <td class="user-name">
+                        <div class="title">
+                          Christian Bale
+                        </div>
+                        <div class="subtitle">
+                          on 24.05.2019
+                        </div>
+                      </td>
+                      <td class="user-date">
+                        <div class="title">
+                          May 25, 2019
+                        </div>
+                        <div class="subtitle">5:00 PM</div>
+                      </td>
+                      <td class="user-status">
+                        <button type="button" class="btn btn-success fw-bold">
+                          NORMAL
+                        </button>
+                      </td>
+                      <td class="user-more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="user-detail d-flex align-items-center" style="gap: 15px">
+                        <img src="./assets/images/m 3.png" alt="user" width="30" height="30" class="rounded-circle" />
+                        <div>
+                          <div class="title">
+                            Unable to add replies
+                          </div>
+                          <div class="subtitle">
+                            Updated 2 days ago
+                          </div>
+                        </div>
+                      </td>
+                      <td class="user-name">
+                        <div class="title">Henry Cavil</div>
+                        <div class="subtitle">
+                          on 24.05.2019
+                        </div>
+                      </td>
+                      <td class="user-date">
+                        <div class="title">
+                          May 25, 2019
+                        </div>
+                        <div class="subtitle">4:00 PM</div>
+                      </td>
+                      <td class="user-status">
+                        <button type="button" class="btn btn-danger fw-bold">
+                          HIGH
+                        </button>
+                      </td>
+                      <td class="user-more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="user-detail d-flex align-items-center" style="gap: 15px">
+                        <img src="./assets/images/m 4.png" alt="user" width="30" height="30" class="rounded-circle" />
+                        <div>
+                          <div class="title">
+                            Downtime since last week
+                          </div>
+                          <div class="subtitle">
+                            Updated 3 days ago
+                          </div>
+                        </div>
+                      </td>
+
+                      <td class="user-name">
+                        <div class="title">Chris Evans</div>
+                        <div class="subtitle">
+                          on 23.05.2019
+                        </div>
+                      </td>
+                      <td class="user-date">
+                        <div class="title">
+                          May 25, 2019
+                        </div>
+                        <div class="subtitle">2:00 PM</div>
+                      </td>
+                      <td class="user-status">
+                        <button type="button" class="btn btn-success fw-bold">
+                          NORMAL
+                        </button>
+                      </td>
+                      <td class="user-more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="user-detail d-flex align-items-center" style="gap: 15px">
+                        <img src="./assets/images/w 3.png" alt="user" width="30" height="30" class="rounded-circle" />
+                        <div>
+                          <div class="title">
+                            Referral Bonus
+                          </div>
+                          <div class="subtitle">
+                            Updated 4 day ago
+                          </div>
+                        </div>
+                      </td>
+
+                      <td class="user-name">
+                        <div class="title">Sam Smith</div>
+                        <div class="subtitle">
+                          on 22.05.2019
+                        </div>
+                      </td>
+                      <td class="user-date">
+                        <div class="title">
+                          May 25, 2019
+                        </div>
+                        <div class="subtitle">11:30 AM</div>
+                      </td>
+                      <td class="user-status">
+                        <button type="button" class="btn btn-warning text-white fw-bold">
+                          LOW
+                        </button>
+                      </td>
+                      <td class="user-more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="user-detail d-flex align-items-center" style="gap: 15px">
+                        <img src="./assets/images/w 4.png" alt="user" width="30" height="30" class="rounded-circle" />
+                        <div>
+                          <div class="title">
+                            How do I change my password?
+                          </div>
+                          <div class="subtitle">
+                            Updated 6 days ago
+                          </div>
+                        </div>
+                      </td>
+
+                      <td class="user-name">
+                        <div class="title">
+                          Steve Rogers
+                        </div>
+                        <div class="subtitle">
+                          on 2214.05.2019
+                        </div>
+                      </td>
+                      <td class="user-date">
+                        <div class="title">
+                          May 24, 2019
+                        </div>
+                        <div class="subtitle">1:00 PM</div>
+                      </td>
+                      <td class="user-status">
+                        <button type="button" class="btn btn-success fw-bold">
+                          NORMAL
+                        </button>
+                      </td>
+                      <td class="user-more">
+                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="d-flex justify-content-end align-items-center article-footer">
+                  <span class="d-flex align-items-center fw-normal per-page">Rows per page:<select
+                      class="form-select border-0" aria-label="Default select example ">
+                      <option>1</option>
+                      <option value="1">2</option>
+                      <option value="2">3</option>
+                      <option value="8" selected>8</option>
+                    </select></span>
+                  <span class="count-item fw-normal">1-8 of 1240</span>
+                  <span class="array-icon"><i class="fa-solid fa-chevron-left"></i><i
+                      class="fa-solid fa-chevron-right"></i></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+</body>
+
+</html>

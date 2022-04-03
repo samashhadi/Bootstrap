@@ -1,0 +1,14 @@
+{
+  "name": "Bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "lite-server --baseDir=\"public\""
+  },
+  "keywords": [],
+  "author": "Sahar Mashhadi",
+  "license": "private",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
