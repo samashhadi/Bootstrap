@@ -40,8 +40,9 @@
         }
     ],
     "unresolvedTickets":{
-        "group":"Support",
-        "tickets":[
+        "title":"Unresolved tickets",
+        "subtitle":"Group: <span>Support</span>",
+        "items":[
             {
                 "title" : "Waiting on Feature Request",
                 "value" : "4238"
@@ -57,6 +58,33 @@
             {
                 "title" : "Pending",
                 "value" : "281"
+            }
+        ]
+    },
+    "todayTasks":{
+        "title":"Tasks",
+        "subtitle":"Today",
+        "items":[
+            {
+                "title" : "Finish ticket update",
+                "value" : "URGENT",
+                "bg_color" : "warning",
+                "color" : "white",
+                "checked" :""
+            },
+            {
+                "title" : "Create new ticket example",
+                "value" : "NEW",
+                "bg_color" : "success",
+                "color" : "white",
+                "checked" :""
+            },
+            {
+                "title" : "Update ticket report",
+                "value" : "DEFAULT",
+                "bg_color" : "light",
+                "color" : "black-50",
+                "checked" :"checked"
             }
         ]
     }
